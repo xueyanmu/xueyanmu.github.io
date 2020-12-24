@@ -1,1 +1,196 @@
-"css" 
+#wrapper {
+    width:100%;
+    margin: 100px;
+    padding: 30px;
+    background-color: #e0e8f4;
+    text-align: center;
+    font-family: 'Courier New', monospace, bold;
+
+}
+
+.jumbotron{
+  max-width:450px;
+  max-height:350px;
+}
+#jumplinks{
+  font-size: 20px;
+}
+#walking-elf{
+  margin: 70px;
+}
+.gifs {
+  max-width: 490px;
+  text-align: left;
+  image-align: left; 
+}
+
+/* Set the size of the div element that contains the map */
+.list{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+.about-titles{
+  max-width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+.siteWrapper{
+  background-color: #fafffc;
+  padding: 10px;
+}
+#map {
+  height: 200px;  /* The height is 400 pixels */
+  width: 90%;  /* The width is the width of the container */
+  margin-left:auto; 
+  margin-right:auto;
+ }
+.container {
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'Work Sans', sans-serif;
+  background-color: #fafffc;
+}
+
+.title {
+  color: #F7704B;
+    font-weight: 700;
+    font-size: 50px;
+    font-family:  Courier New, serif;
+    margin-bottom: 100px;
+}
+h3{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h4{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.column2 {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+@media screen and (max-width: 1000px) {
+  .column2 {
+    width: 100%;
+  }
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+  .column3 {
+  float: left;
+  width: 85%;
+  padding: 15px;
+}
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+serif;
+    font-size: 20px;
+
+
+input {
+  width: 400px;
+}
+
+#top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #27AE61 url("up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+  
+  
+/*AIzaSyDrJ27PMnwaGSsv6LqxX8wVQKz2_D34bco*/
+/*two problems
+2. the map needs to input the actual randomized coords (how to scoop the output of the randfunction? 
+a. input coords is only being changed when clicked. therefore maps cannot take in inputcoords as a coord.
+need another way to input the og and random coordinates.
+does input coord need to be global variable
+if made into local, getOrigin and getRandom would need to become one func.
+
+inputcoords as a global varibale will not work
+*/
+
+
+/*
+prompts name ask
+var name = prompt("What's your name?");
+*/
+
+/*
+figure out how to access
+random and origin's
+coords in other func
+*/
+    /*
+    100min== 5 mile
+    5 min= .25 mile
+    805meters
+    100min == 805*5 
+    t/20 * 805
+    UPDATE- 25 min/mile. not 20
+  
+  }
+@media only screen and (max-width:640px) 
+  .index-section-wrapper .content:not(.gallery-content){
+    padding: 40px 20px;
+}
+    */
+    

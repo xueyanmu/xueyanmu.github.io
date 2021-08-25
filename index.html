@@ -1,112 +1,200 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Xueyan Mu - About Me</title>
+    <meta charset="UTF-8">
+    <title>Xueyan Mu - About Me</title>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Public+Sans:500|Work+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
-  <meta name=viewport content='width=700'>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Public+Sans:500|Work+Sans&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap"
+          rel="stylesheet">
+    <meta name=viewport content='width=700'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <head>
 
-  
-  
-  
-<div class="siteWrapper">
- <div class='container'>
-   <div class="header">
-   <h1 class = 'title'> Xueyan Mu 
-       <a href="#try-it" id="jumplinks">about</a>
-       <a href="#why-roam"id="jumplinks">projects</a>
-       <a href="#wrapper"id="jumplinks">contact</a></h1>
-    
-   
-  
-  <div class="row">
-    <div class="column" id="column-left">
-      <link rel="stylesheet" type="text/css" href="myfile.css" media="screen and (max-width: 800px)" />
-      <h3 id="try-it"> Hi! I'm an Computer Science undergrad at Rice University. </h3>
-        <h4> I make data visualizations, websites, and other programming projects. You can find more information about my professional life in <a href = "https://www.dropbox.com/s/5d0jhjizeyvenyn/Xueyan_Mu_Resume2021.pdf?dl=0" class="has-tool-tip" style="position:relative;">my CV</a> or on <a href = "https://www.linkedin.com/in/xueyanmu/" class="has-tool-tip" style="position:relative;">LinkedIn</a>.</h4>
-        <br></br>
-    </div>
-    <div class="column" id="column-right">
-       <img class='propic' src="https://i.imgur.com/VeCLWFB.jpg" title="source: imgur.com" alt="Blog Thumbnail" /></a>
-       <img class='propic2' src="https://i.imgur.com/fxWxSTE.jpg?2" title="source: imgur.com" alt="Blog Thumbnail" /></a>
 
-      </div></div> <br></br><br></br>
+    <div class="siteWrapper">
+        <div class='container'>
+            <div class="header">
+                <h1 class='title'> Xueyan Mu
+                    <a href="#try-it" id="jumplinks">about</a>
+                    <a href="#why-roam" id="jumplinks">projects</a>
+                    <a href="#wrapper" id="jumplinks">contact</a></h1>
 
- 
-  
-<h2 class="about-titles" id='why-roam'>Projects</h2>
-   <div class="row">
-    <div class="column" id="column-left"></h2>
-     
-     
-     
-<!--ROAM IMAGE BOX -->  
-<div class='jumbotron'>
-<div class="row">
-<div class="column">
-<input id='time' type='number' id='onchange' class='input' placeholder="0 minutes"><br></br>
-<button class='btn btn-danger' id='get-random'> Random Destination!</button><br></br>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<p id="p1"> <button class='btn' id='random-location' onclick="randomLocationGlobal"> Destination Coords<div id='random-location' class='col'></div></button>
-                </p>
-      <button onclick="copyToClipboard('#p1')">Copy Coordinates</button><br></br></div>
-     <div class="column"><div class='row'>
-      <div class='col'>
-        <!--The div element for the map -->
-        <div id="map"></div>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrJ27PMnwaGSsv6LqxX8wVQKz2_D34bco&callback=initMap">
-        </script></div>
-              </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<!--HEATMAP IMAGE BOX -->  
-     <div class="column" id='column-right'>
-    <h3 class="list"><a href = "https://codepen.io/xueyanmu/pen/XWJBaQZ" class="has-tool-tip" style="position:relative;">Roam</a></h3>
-    <h4><p>A simple static site giving a randomized destination to walk to. An attempt to
-allow users to break free of the limited choice of ’filter bubble’ and embrace chance, and
-develop a more intriguing pedestrian culture. [alpha version]</p>
- </div>
-   <div class="row">
-    <div class="column" id="column-left">
- <a href="https://observablehq.com/@xueyanmu/heatmap-d3/"><img class='gifs' src="https://i.imgur.com/gwAEjSi.png" title="source: imgur.com" alt="Blog Thumbnail" /></a>
-     </div>
-      <div class="column" id="column-right">
-    <h3 class="list"><a href = "https://observablehq.com/@xueyanmu/heatmap-d3" class="has-tool-tip" style="position:relative;">Gene Enrichment Heat Map</a></h3>
-    <h4> An interactive gene enrichment heat map that shows whether there is correlation between certain classes of genes and disease phenotypes. [alpha version]</h4><br></br></div></div>
-   <div class="row" id='befriend'>
-    <div class="column" id="column-left">
-      <a href="http://prysm-gui.rice.edu/"><img class='gifs' src="https://i.imgur.com/WoWVVkH.png" title="source: imgur.com" alt="Blog Thumbnail" /></a>
- </div>
-     <div class="column" id='column-right'>
-    <h3 class="list"><a href = "http://prysm-gui.rice.edu/index.html" class="has-tool-tip" style="position:relative;">PRYSM</a></h3>
-    <h4>An executable graphical user interface (GUI) for Climate Proxy System Modeling Tools in Python [IN BETA].</h4><br></br></div></div>
-   <div class="row" id='befriend'>
 
-     <div class="column" id='column-right'>
-  </a></p></h4></div>
+                <div class="row">
+                    <div class="column" id="column-left">
+                        <link rel="stylesheet" type="text/css" href="myfile.css"
+                              media="screen and (max-width: 800px)"/>
+                        <h3 id="try-it"> Hi! I'm an Computer Science undergrad at Rice
+                            University. </h3>
+                        <h4> I make data visualizations, websites, and other programming
+                            projects. You can find more information about my professional
+                            life in <a
+                                    href="https://www.dropbox.com/s/5d0jhjizeyvenyn/Xueyan_Mu_Resume2021.pdf?dl=0"
+                                    class="has-tool-tip" style="position:relative;">my
+                                CV</a> or on <a
+                                    href="https://www.linkedin.com/in/xueyanmu/"
+                                    class="has-tool-tip" style="position:relative;">LinkedIn</a>.
+                        </h4>
+                        <br></br>
+                    </div>
+                    <div class="column" id="column-right">
+                        <img class='propic' src="https://i.imgur.com/VeCLWFB.jpg"
+                             title="source: imgur.com" alt="Blog Thumbnail"/></a>
+                        <img class='propic2' src="https://i.imgur.com/fxWxSTE.jpg?2"
+                             title="source: imgur.com" alt="Blog Thumbnail"/></a>
 
-  </div>
-       <div id="wrapper"><h2><a href = "mailto:xm14@rice.edu" class="has-tool-tip" style="position:relative;">~electronic mail~</a> </h2><br></br>
-   
-<a href="#" class="#top">^Back to Top^</a>
-      </div>                    
-       </div>
-    </div>
-  </div>               
-</head>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+                    </div>
+                </div>
+                <br></br><br></br>
+
+
+                <h2 class="about-titles" id='why-roam'>Projects</h2>
+                <div class="row">
+                    <div class="column" id="column-left"></h2>
+
+                        <div class='jumbotron'>
+                          
+                          
+                          
+                       
+                            <!--APP IMAGE BOX -->
+                            <div class="column" id='column-right'>
+                                <h3 class="list"><a
+                                        href="https://docs.google.com/presentation/d/1CbyTrWJLfy1x1rdjhl9N15r4FYSXA2A9fTtj-vBqb6A/edit?usp=sharing"
+                                        class="has-tool-tip"
+                                        style="position:relative;">ID Verification App</a></h3>
+                                <h4>A primitive Android app accessing a Machine Learning face verification model [IN BETA].</h4>
+                                <br></br></div>
+                        </div>
+                        <div class="row" id='befriend'>
+
+                            <div class="column" id='column-right'>
+                                </a></p></h4></div>
+
+
+                            <!--ROAM IMAGE BOX -->
+                            <div class="row">
+                                <div class="column">
+                                    <input id='time' type='number' id='onchange'
+                                           class='input'
+                                           placeholder="0 minutes"><br></br>
+                                    <button class='btn btn-danger' id='get-random'> Random
+                                        Destination!
+                                    </button>
+                                    <br></br>
+                                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                                    <p id="p1">
+                                        <button class='btn' id='random-location'
+                                                onclick="randomLocationGlobal">
+                                            Destination
+                                            Coords
+                                            <div id='random-location' class='col'></div>
+                                        </button>
+                                    </p>
+                                    <button onclick="copyToClipboard('#p1')">Copy
+                                        Coordinates
+                                    </button>
+                                    <br></br></div>
+                                <div class="column">
+                                    <div class='row'>
+                                        <div class='col'>
+                                            <!--The div element for the map -->
+                                            <div id="map"></div>
+                                            <script async defer
+                                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrJ27PMnwaGSsv6LqxX8wVQKz2_D34bco&callback=initMap">
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column" id='column-right'>
+                        <h3 class="list"><a href="https://codepen.io/xueyanmu/pen/XWJBaQZ"
+                                            class="has-tool-tip"
+                                            style="position:relative;">Roam</a>
+                        </h3>
+                        <h4><p>A simple static site giving a randomized destination to
+                            walk
+                            to. An attempt to
+                            allow users to break free of the limited choice of ’filter
+                            bubble’
+                            and embrace chance, and
+                            develop a more intriguing pedestrian culture. [alpha
+                            version]</p>
+                    </div>
+
+
+                    <!--HEATMAP IMAGE BOX -->
+                    <div class="row">
+                        <div class="column" id="column-left">
+                            <a href="https://observablehq.com/@xueyanmu/heatmap-d3/"><img
+                                    class='gifs' src="https://i.imgur.com/gwAEjSi.png"
+                                    title="source: imgur.com" alt="Blog Thumbnail"/></a>
+                        </div>
+                        <div class="column" id="column-right">
+                            <h3 class="list"><a
+                                    href="https://observablehq.com/@xueyanmu/heatmap-d3"
+                                    class="has-tool-tip" style="position:relative;">Gene
+                                Enrichment Heat Map</a></h3>
+                            <h4> An interactive gene enrichment heat map that shows
+                                whether
+                                there is correlation between certain classes of genes and
+                                disease phenotypes. [alpha version]</h4><br></br></div>
+                    </div>
+                    <div class="row" id='befriend'>
+                        <div class="column" id="column-left">
+                            <a href="http://prysm-gui.rice.edu/"><img class='gifs'
+                                                                      src="https://i.imgur.com/WoWVVkH.png"
+                                                                      title="source: imgur.com"
+                                                                      alt="Blog Thumbnail"/></a>
+                        </div>
+
+
+                        <!--PRYSM IMAGE BOX -->
+                        <div class="column" id='column-right'>
+                            <h3 class="list"><a
+                                    href="http://prysm-gui.rice.edu/index.html"
+                                    class="has-tool-tip"
+                                    style="position:relative;">PRYSM</a></h3>
+                            <h4>An executable graphical user interface (GUI) for Climate
+                                Proxy
+                                System Modeling Tools in Python [IN BETA].</h4><br></br>
+                        </div>
+                    </div>
+                    <div class="row" id='befriend'>
+
+                        <div class="column" id='column-right'>
+                            </a></p></h4></div>
+
+
+                        <!--EMAIL IMAGE BOX -->
+                    </div>
+                    <div id="wrapper"><h2><a href="mailto:xm14@rice.edu"
+                                             class="has-tool-tip"
+                                             style="position:relative;">~electronic
+                        mail~</a>
+                    </h2><br></br>
+
+                        <a href="#" class="#top">^Back to Top^</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </head>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+        <script src="./script.js"></script>
 
 </body>
 </html>
